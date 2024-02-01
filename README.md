@@ -9,8 +9,8 @@ apt-transport-https
 run this script in privilege mode, such that 'sources.list' can be edited.
 
 ## How to use
-'''
+```
 wget https://raw.githubusercontent.com/AgentPhoenix7/mirrorscript/master/script.sh
 chmod +x script.sh
 ./script.sh
-'''
+```
