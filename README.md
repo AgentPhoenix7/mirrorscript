@@ -1,0 +1,2 @@
+# mirrorscript
+ Changing Kali mirrorlist
