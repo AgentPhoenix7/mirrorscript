@@ -2,11 +2,10 @@
 Script to change official Kali repository to mirrors.
 
 ## Requirements
-Kali Linux,
-apt-transport-https
+Kali Linux, apt-transport-https
 
 ## Usage
-run this script in privilege mode, such that 'sources.list' can be edited.
+Run this script in privilege mode, such that 'sources.list' can be edited.
 
 ## How to use
 ```
