@@ -3,10 +3,8 @@
 set -eu -o pipefail # fail on error and report it, debug all lines
 
 echo installing the must-have pre-requisites
-while read -r p ; do sudo apt install -y $p ; done < <(cat << "EOF"
-    apt-transport-https
-EOF
-)
+sudo apt update
+sudo apt install apt-transport-https
 echo copying /etc/apt/sources.list to /etc/apt/sources.list.bk
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bk
 echo changing http to https
