@@ -1,4 +1,4 @@
-# mirrorscript
+# Mirrorscript
 
 Script to change official Kali repository to mirrors.
 
